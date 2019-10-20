@@ -14,6 +14,12 @@ public class Dragon implements Comparable {
     int width;
     DragonColor color;
 
+    public Dragon(String name, int age, int width, DragonColor color ){
+        this.name = name;
+        this.age = age;
+        this.width = width;
+        this.color = color;
+    }
 
     @Override
     public int compareTo(@NotNull Object o) {
@@ -37,5 +43,8 @@ public class Dragon implements Comparable {
         return 0;
     }
 
-
+    @Override
+    public String toString(){
+        return name+","+age+","+width+","+color;
+    }
 }
