@@ -45,6 +45,6 @@ public class Dragon implements Comparable {
 
     @Override
     public String toString(){
-        return name+","+age+","+width+","+color;
+        return name+", "+age+", "+width+", "+color;
     }
 }
