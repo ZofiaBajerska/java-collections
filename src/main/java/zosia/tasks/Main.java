@@ -2,11 +2,18 @@ package zosia.tasks;
 
 import java.util.List;
 
+/**
+ * Application Main class
+ *
+ * @author Zofia B.
+ */
 public class Main {
 
     /**
+     *Application main method.
      *
-     * @param args
+     * @param args application command line arguments.
+     *
      */
     public static void main(String[] args) {
 
@@ -17,8 +24,6 @@ public class Main {
         catalog.add(new Dragon("Wichura", 108, 112, DragonColor.BLUE));
         catalog.add(new Dragon("Sztukomięs", 87, 98, DragonColor.BROWN));
         catalog.add(new Dragon("Hakokieł", 118, 147, DragonColor.BROWN));
-
-
 
         catalog.printAll();
         System.out.println("--------------------");
