@@ -1,4 +1,4 @@
-package zosia.tasks;
+package zosia.tasks.models;
 
 import java.util.ArrayList;
 import java.util.Comparator;

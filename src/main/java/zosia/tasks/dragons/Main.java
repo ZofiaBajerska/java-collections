@@ -1,4 +1,8 @@
-package zosia.tasks;
+package zosia.tasks.dragons;
+
+import zosia.tasks.models.Dragon;
+import zosia.tasks.models.DragonCatalog;
+import zosia.tasks.models.DragonColor;
 
 import java.util.List;
 
@@ -13,7 +17,6 @@ public class Main {
      *Application main method.
      *
      * @param args application command line arguments.
-     *
      */
     public static void main(String[] args) {
 
